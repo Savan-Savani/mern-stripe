@@ -42,3 +42,5 @@ mongoose
   })
   .then(() => console.log("MongoDB connection established..."))
   .catch((error) => console.error("MongoDB connection failed:", error.message));
+
+export default app;

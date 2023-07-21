@@ -5,9 +5,7 @@ const products = [
     brand: "Apple",
     desc: "6.1-inch display",
     price: 999,
-    image:
-      // "https://res.cloudinary.com/chaoocharles/image/upload/v1629289889/online-shop/iphone12pro_e09phn.jpg",
-      "http://localhost:5001/galaxyS.png"
+    image: "https://mern-stripe-backend.vercel.app/galaxyS.png",
   },
   {
     id: 2,
@@ -15,20 +13,16 @@ const products = [
     brand: "Apple",
     desc: "5.4-inch mini display",
     price: 699,
-    image:
-      // "https://res.cloudinary.com/chaoocharles/image/upload/v1629289889/online-shop/iphone12_efhrcp.jpg",
-      "http://localhost:5001/iphone12.jpg"
-    },
+    image: "https://mern-stripe-backend.vercel.app/iphone12.jpg",
+  },
   {
     id: 3,
     name: "Galaxy S",
     brand: "Samsung",
     desc: "6.5-inch display",
     price: 399,
-    image:
-      // "https://res.cloudinary.com/chaoocharles/image/upload/v1629289889/online-shop/galaxyS_dvjf5w.png",
-      "http://localhost:5001/iphone12pro.jpg"
-    },
+    image: "https://mern-stripe-backend.vercel.app/iphone12pro.jpg",
+  },
 ];
 
 module.exports = products;
